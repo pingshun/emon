@@ -186,7 +186,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/emon/emon_logo.png) center center no-repeat;
+	background: url(../img/emon/stand_by_me.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -197,7 +197,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: "Microsoft Yahei";
 	color: #fff;
 	font-size: 82px;
 	font-weight: 700;
@@ -222,7 +223,7 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Features Section */
+/* Features Section <to be deleted>*/
 #features {
 	padding: 100px 0;
 	background: #f6f6f6;
@@ -286,7 +287,7 @@ header .intro-text {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
+/* Services Section <to be deleted> */
 #services {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -329,8 +330,8 @@ header .intro-text {
 #services .service-desc {
 	margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* New Arrivals Section */
+#new-arrivals {
 	padding: 100px 0;
 }
 .portfolio-item {
@@ -374,6 +375,25 @@ header .intro-text {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+
+/* Following Section */
+#following {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+#following i.fa {
+	font-size: 38px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 30px 0;
+	border-radius: 50%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
