@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Removing www..."
-rm -rf ./www/
+rm -rf ./www/*
 
 echo "Copying latest resources..."
 cp -r ./css ./www/
