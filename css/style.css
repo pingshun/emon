@@ -81,6 +81,9 @@ hr {
 	color: #333;
 	text-transform: uppercase;
 }
+#menu a .navbar-logo {
+	margin-top: -40px;
+}
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
