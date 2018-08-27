@@ -1,5 +1,13 @@
 
 function main() {
+// baidu analysis
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?43a5e3fd5cb6a7b1ef4b35973fe5b4fc";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
 
 (function () {
    'use strict';
