@@ -64,6 +64,11 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+
+.warning {
+    color: #FF0000
+}
+
 /* Navigation */
 #menu {
 	padding: 15px;
@@ -394,6 +399,20 @@ header .intro-text {
 	border-radius: 50%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+/* Phone Picture Section */
+#phone-pic  {
+	padding: 100px 0;
+}
+#phone-pic h4 {
+	margin: 5px 0;
+}
+#phone-pic .phone-img {
+	width: 240px;
+}
+#phone-pic .thumbnail {
+	background: transparent;
 }
 
 /* Testimonials Section */
